@@ -1,0 +1,29 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-image: url('back.jpg');
+    background-color: rgb(97, 205, 241);
+}
+
+.button {
+    background-color: #8a2be2d9;
+    padding: 15px;
+    font-size: 10px;
+    text-align: center;
+}
+
+button {
+    border: 3px solid #f9e000;
+    background-color: rgb(175, 2, 109);
+    padding: 14px;
+    color: white;
+    font-size: 18px;
+    border-radius: 50%;
+    outline: none;
+}
+
+.name {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 30vh;
+}
