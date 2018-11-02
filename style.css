@@ -1,7 +1,9 @@
 body {
     margin: 0%;
     padding: 0%;
-    background-image: url('back.jpg');
+    background-image: url('img/back.jpg');
+    background-size: cover;
+    background-attachment: fixed;
     background-color: rgb(97, 205, 241);
 }
 
@@ -22,8 +24,17 @@ button {
     outline: none;
 }
 
+button:hover {
+    background-color: rgb(175, 2, 109);
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+
 .name {
     font-size: 35px;
     text-align: center;
-    margin-top: 30vh;
+    margin-top: 15vh;
+}
+
+p {    
+    margin-bottom: 18vh;
 }
