@@ -32,9 +32,16 @@ button:hover {
 .name {
     font-size: 35px;
     text-align: center;
-    margin-top: 15vh;
+    margin-top: 20vh;
 }
 
 p {    
     margin-bottom: 18vh;
+}
+
+.message {
+    margin-top: -14vh;    
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 8px #FF0000;
 }
